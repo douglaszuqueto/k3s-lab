@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: postgres-config
+  namespace: default
+  labels:
+    app: postgres
+data:
+  DB_DATABASE: grpc
+  DB_USER: postgres
+  DB_PASS: root
+  DB_PORT: "5432"
