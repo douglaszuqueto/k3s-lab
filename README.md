@@ -4,7 +4,7 @@ Laboratório de estudos K3S
 
 ## Índice
 
-* [Namespace](./)
+* [Namespace](./namespace)
 * [Configmap]()
 * [Secret]()
 * [Cron]()
